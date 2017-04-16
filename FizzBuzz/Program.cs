@@ -10,7 +10,8 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for(int i=1;i<=100;i++)
+            // Tests the 1.100 numbers and prints the text when matched
+            for (int i=1;i<=100;i++)
             {
                 Console.WriteLine(FizzBuzz.Library.FizzBuzzer.GetValue(i));
             }
